@@ -1,0 +1,304 @@
+/*============= extra small device ================*/
+@media (max-width: 575.98px) {
+.navbar {
+	padding: 12px 1rem;
+}    
+.navbar-toggler i {
+    color: #fff;
+    font-size: 24px;
+}
+.navbar-nav {
+    background: #bf716e;
+}    
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+}
+.navbar-light .navbar-toggler:focus {
+    outline: none;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+	text-align: center;
+}
+.navbar-expand-md .navbar-nav .nav-link::after {
+	display: none;
+}
+.banner-text h1 {
+	font-size: 50px;
+}
+.banner-text h3 {
+	font-size: 40px;
+}
+#banner {
+	padding-top: 170px;
+	padding-bottom: 130px;
+}
+#about {
+	padding-top: 45px;
+	padding-bottom: 55px;
+}
+.heading p {
+	padding: 0 0;
+	padding-top: 60px;
+}
+.heading {
+	padding-bottom: 50px;
+}
+.heading h2 {
+	font-size: 26px;
+}
+.about-item {
+	margin-bottom: 20px;
+}
+#counter {
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+#service {
+	padding-top: 55px;
+}
+.service-item {
+	text-align: center;
+    padding-bottom: 30px;
+}
+.service-text h3 {
+	padding-top: 10px;
+}
+.feed-icon {
+    text-align: center;
+}
+.feed-text {
+	padding-left: 0px;
+}
+.feed-text p {
+	font-size: 16px;
+	padding-top: 20px;
+}
+#team {
+	padding-top: 50px;
+}   
+#portfolio {
+	padding-top: 50px;
+}   
+#footer {
+	margin-top: 50px;
+    padding-top: 40px;
+}
+.footer-item h5 a {
+	margin: 0 5px;
+}
+.field {
+	width: 290px;
+	position: relative;
+}
+.field button {
+	padding: 15px 17px;
+}
+.footer-item h3 {
+	padding-bottom: 15px;
+	padding-top: 20px;
+    text-align: center;
+}
+.footer-item img {
+	padding-bottom: 0;
+}
+.blogs-item {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.feed-position .left,.right {
+	display: none!important;
+}
+
+}
+/*============== Small Device ===============*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+.navbar {
+	padding: 12px 1rem;
+}
+.navbar-nav {
+    background: #bf716e;
+}    
+.navbar-toggler i {
+    color: #fff;
+    font-size: 24px;
+}
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+}
+.navbar-light .navbar-toggler:focus {
+    outline: none;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+	text-align: center;
+}
+.navbar-expand-md .navbar-nav .nav-link::after {
+	display: none;
+}
+.banner-text h1 {
+	font-size: 72px;
+}
+.banner-text h3 {
+	font-size: 48px;
+}
+#banner {
+	padding-top: 170px;
+	padding-bottom: 130px;
+}
+#about {
+	padding-top: 45px;
+	padding-bottom: 55px;
+}
+.heading p {
+	padding: 0 0;
+	padding-top: 60px;
+}
+.heading {
+	padding-bottom: 50px;
+}
+.about-item {
+    margin-bottom: 30px;
+}
+#counter {
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+#service {
+	padding-top: 55px;
+}
+#service .heading {
+    padding-bottom: 90px;
+}
+.service-item {
+	padding-bottom: 50px;
+}
+.feed-text p {
+	font-size: 18px;
+	line-height: 30px;
+}
+  
+.feed-icon i {
+	width: 120px;
+	height: 120px;
+	line-height: 120px;
+}
+#feedback {
+	padding-bottom: 0;
+}
+#team {
+	padding-top: 50px;
+}
+#portfolio {
+	padding-top: 50px;
+}
+#footer {
+	padding-top: 40px;
+	margin-top: 0px;
+}
+.footer-item {
+    padding-top: 30px;
+}
+.footer-item img {
+	padding-bottom: 10px;
+}
+.blogs-item {
+    padding-bottom: 30px;
+}  
+.feed-position .left,.right {
+	display: none!important;
+}    
+   
+}
+/*================ medium device ====================*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+.navbar-expand-md .navbar-nav .nav-item {
+	padding-left: 13px;
+	padding-right: 13px;
+}
+.banner-text h1 {
+	font-size: 110px;
+}
+.heading {
+	padding-bottom: 50px;
+}
+#service .heading {
+    padding-bottom: 90px;
+}
+#feedback {
+	padding-bottom: 0px
+}
+.feed-text p {
+	font-size: 20px;
+}
+.team-overlay i {
+	width: 40px;
+	height: 41px;
+	line-height: 40px;
+	font-size: 24px;
+}    
+#footer {
+	padding-top: 40px;
+	margin-top: 0px;
+}
+.footer-item {
+    padding-top: 30px;
+}
+.footer-item img {
+	padding-bottom: 10px;
+}
+.blogs-item {
+    padding-bottom: 30px;
+}    
+.feed-position .left,.right {
+	display: none!important;
+}   
+    
+}
+
+/*============== large Device ====================*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.banner-text h1 {
+	font-size: 120px;
+} 
+#counter .col-md-4 {
+	max-width: 20%;
+}
+#counter .col-md-6 {
+	max-width: 20%;
+}
+.feed-position .left,.right {
+	display: none!important;
+}    
+    
+    
+}
+
+@media(min-width:1200px){
+#counter .col-md-4 {
+	max-width: 20%;
+}
+#counter .col-md-6 {
+	max-width: 20%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
